@@ -6,8 +6,8 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) {
-        try (ServerSocket serverSocket = new ServerSocket(5000)) {
-            System.out.println("Servidor pronto na porta 5000...");
+        try (ServerSocket serverSocket = new ServerSocket(5001)) {
+            System.out.println("Servidor pronto na porta 5001...");
 
             // Espera por conexões
             while (true) {
